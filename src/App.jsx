@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css'
 import Cards from './assets/Component/Cards';
 import CartContainer from './assets/Component/CartContainer';
-import { toast } from 'react-toastify';
+import { ToastContainer,toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -22,7 +22,17 @@ function App() {
 
     if(isexist){
       
-    return alert('Booked')
+      toast.warn('You have already selected it .', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        });
+      return ;
       
     
     }
@@ -34,13 +44,15 @@ function App() {
         addItem.forEach(item=>{
           total += item.price
         })
-        
+
         const totalRemaining = 20 - count;
         if(count > 20){
-          return toast.error("fill")
+          return toast.error("Your Credit limit is over")
         }else{
           setTotalCredit(count);
-        setRemaining(totalRemaining);
+          
+          
+          setRemaining(totalRemaining);
         setTotalPrice(total);
         setAddItem([...addItem,card])
         }
@@ -62,9 +74,11 @@ function App() {
         remaining={remaining}
 
         ></CartContainer>
+        <ToastContainer/>
       </main>
     </>
   )
 }
 
 export default App
+ 
