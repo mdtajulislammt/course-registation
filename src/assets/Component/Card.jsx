@@ -8,7 +8,7 @@ const Card = ({card,selectAddItem}) => {
      return (
           <>
           <div className=' bg-white p-4 w-[300px] rounded-xl '>
-               <img src={image} alt="" className=' m-auto w-[250px]' />
+               <img src={image} alt="" className=' m-auto w-[290px]' />
                <h2 className=' text-base font-semibold mt-5 mb-4'>{title}</h2>
                <p className=' text-sm font-medium text-gray-500 '>{description}</p>
                <div className=" flex justify-center gap-4 items-center mt-7">

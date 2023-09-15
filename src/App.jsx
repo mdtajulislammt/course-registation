@@ -65,7 +65,7 @@ function App() {
       <header className=' mt-7'>
         <h1 className=' text-4xl font-bold text-center'>Course Registration</h1>
       </header>
-      <main className='flex justify-between px-10  mt-14'>
+      <main className='flex justify-between px-10  mt-14 '>
         <Cards selectAddItem={selectAddItem}></Cards>
         <CartContainer 
         totalPrice={totalPrice}
