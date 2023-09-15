@@ -19,7 +19,7 @@ const Card = ({card,selectAddItem}) => {
                    <span className=' text-xl mr-4'><BsBook/></span>
                     <p className=' text-sm font-medium text-gray-500'>Credit : {credit}hr</p></div> 
                </div>
-               <button onClick={()=>selectAddItem(card)} className=' mt-7 font-semibold w-full p-2 bg-[#2F80ED] text-white rounded-lg'>Select</button>
+               <button onClick={()=>selectAddItem(card)} className=' mt-7 font-semibold w-full p-2 bg-[#2F80ED] hover:text-black hover:bg-[#316cb9] text-white rounded-lg'>Select</button>
           </div>
           </>
      );

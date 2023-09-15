@@ -3,8 +3,9 @@ import { useState } from 'react';
 import './App.css'
 import Cards from './assets/Component/Cards';
 import CartContainer from './assets/Component/CartContainer';
-import { ToastContainer,toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Toast from './Libeary/Toast';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -21,20 +22,10 @@ function App() {
 
 
     if(isexist){
+     
+      return Toast();
       
-      toast.warn('You have already selected it .', {
-        position: "top-right",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-        });
-      return ;
-      
-    
+
     }
      else{
 
@@ -47,7 +38,7 @@ function App() {
 
         const totalRemaining = 20 - count;
         if(count > 20){
-          return toast.error("Your Credit limit is over")
+          return Toast("🚨  You don't hove enough credit hour");
         }else{
           setTotalCredit(count);
           
