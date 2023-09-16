@@ -38,7 +38,7 @@ function App() {
 
         const totalRemaining = 20 - count;
         if(count > 20){
-          return Toast("🚨  You don't hove enough credit hour");
+          return Toast("🚨  You don't have enough credit hour");
         }else{
           setTotalCredit(count);
           
@@ -56,8 +56,11 @@ function App() {
       <header className=' mt-7'>
         <h1 className=' text-4xl font-bold text-center'>Course Registration</h1>
       </header>
-      <main className='flex justify-between px-10  mt-14 '>
+      <main className='flex justify-between px-10  mt-14  '>
+        <div className=''>
         <Cards selectAddItem={selectAddItem}></Cards>
+        </div>
+        <div className=' bg-white h-[480px] flex-1 sticky top-3 p-5   rounded-xl'>
         <CartContainer 
         totalPrice={totalPrice}
         addItem={addItem}
@@ -66,6 +69,7 @@ function App() {
 
         ></CartContainer>
         <ToastContainer/>
+        </div>
       </main>
     </>
   )

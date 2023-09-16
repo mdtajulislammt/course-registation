@@ -13,7 +13,7 @@ const Cards = ({selectAddItem}) => {
           .then(data => setCards(data))
      },[])
      return (
-          <div className=" grid grid-cols-3 gap-4">
+          <div className=" grid grid-cols-3  gap-5 flex-1 mr-6">
                {
                     cards.map(card=>
                          <Card 
