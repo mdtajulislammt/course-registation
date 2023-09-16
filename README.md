@@ -8,7 +8,7 @@
  
 ## 2. Question Discuss how you managed the state in your assignment project.
 
--Local State Management:
+- Local State Management:
  For little to medium-sized projects, neighborhood state the board is frequently adequate. In this methodology, the state is put away and overseen inside the parts or modules where it's required. This can be accomplished utilizing factors or information structures inside the part's extension.
 
  - React's State Management (React.js):
@@ -18,10 +18,10 @@
  In applications that include data sets and server-side rationale, the backend regularly deals with the condition of the application's information. APIs and databases are used to accomplish this. Frontend parts speak with the backend to recover and refresh the condition of the application.
 
 
--State Machines:
+- State Machines:
  At times, state machines are utilized to display and deal with the application's way of behaving. State machines characterize a bunch of states, changes among states, and activities related with each state progress. Libraries like XState are regularly utilized for this reason.
 
- -Persistent State:
+ - Persistent State:
  Data is frequently stored in databases or cloud storage services in projects that require data persistence between sessions, such as mobile apps or web applications with user accounts. Confirmation tokens and meeting information assist with keeping up with the client's state across numerous meetings.
 
  

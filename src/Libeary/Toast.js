@@ -10,7 +10,6 @@ const Toast = (text = "  You have already selected it .") => {
     draggable: true,
     progress: undefined,
     theme: "light",
-    
   });
 };
 

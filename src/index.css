@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 body{
+  
   font-family: 'Inter';
   background-color: rgb(214, 214, 214);
 }
