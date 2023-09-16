@@ -11,7 +11,7 @@
          "id": 2 ,
          "image": "https://i.ibb.co/MCxrct6/Rectangle-2-3.png",
          "title": "Introduction to Algorithms",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "It is a general-purpose language used to develop software, such as databases, operating systems, compilers, and many more.",
          "price": 25000,
          "credit": 2
      },
@@ -19,7 +19,7 @@
          "id": 3 ,
          "image": "https://i.ibb.co/qM3cGfw/Rectangle-2-4.png",
          "title": "Introduction to C++ for DSA",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "Introduction to Algorithms is a widely used and influential textbook in the field of computer science and algorithms.",
          "price": 10000,
          "credit": 10
      },
@@ -27,7 +27,7 @@
          "id": 4 ,
          "image": "https://i.ibb.co/Rhtnxz8/Rectangle-3.png",
          "title": "Basic Data Structures",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "C++ is a popular programming language often chosen for teaching and implementing DSA concepts due to its efficiency.",
          "price": 35000,
          "credit": 5
      },
@@ -35,7 +35,7 @@
          "id": 5 ,
          "image": "https://i.ibb.co/CMD3GjR/Rectangle-2.png",
          "title": "Introduction to OOP Python",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "Basic data structures are fundamental building blocks in computer science and programming. They are used to store.",
          "price": 19000,
          "credit": 5
      },
@@ -43,7 +43,7 @@
          "id": 6 ,
          "image": "https://i.ibb.co/J7nnb3q/Rectangle-2-5.png",
          "title": "Software Engineering",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "Object-Oriented Programming (OOP) is a popular programming paradigm that focuses on organizing code into reusable .",
          "price": 23000,
          "credit": 2
      },
@@ -51,7 +51,7 @@
          "id": 7 ,
          "image": "https://i.ibb.co/mFXb93W/Rectangle-3-1.png",
          "title": "AWS, Cloud Computing",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "Amazon Web Services (AWS) is one of the leading cloud computing platforms, offering a wide range of cloud services to individuals.",
          "price": 35000,
          "credit": 5
      },
@@ -59,7 +59,7 @@
          "id": 8 ,
          "image": "https://i.ibb.co/3kLqVyc/Rectangle-2-1.png",
          "title": "Database (MySQL)",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "MySQL is an open-source relational database management system (RDBMS) that is widely used in web other applications.",
          "price": 19000,
          "credit": 5
      },
@@ -67,7 +67,7 @@
          "id": 9 ,
          "image": "https://i.ibb.co/WKDzrTS/Rectangle-2-6.png",
          "title": "Problem-Solving Part",
-         "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+         "description": "Problem-solving is a critical skill in various aspects of life, including academia, work, and personal challenges..",
          "price": 23000,
          "credit": 2 
      }

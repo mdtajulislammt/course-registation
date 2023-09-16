@@ -7,17 +7,17 @@ const Card = ({ card, selectAddItem }) => {
 
   return (
     <>
-      <div className=" bg-white p-3 w-[300px]  rounded-xl ">
+      <div className=" bg-white p-3 h-[430px] w-[300px]  rounded-xl ">
         <img src={image} alt="" className=" m-auto " />
         <h2 className=" text-base font-semibold mt-5 mb-4">{title}</h2>
-        <p className=" text-sm font-medium text-gray-500 ">{description}</p>
-        <div className=" flex justify-center gap-4 items-center mt-7">
-          <div className=" flex  items-center">
+        <p className=" text-sm font-medium h-[70px] text-gray-500 ">{description}</p>
+        <div className=" flex justify-center  gap-4 items-center mt-7">
+          <div className=" flex  items-center ">
             <span className=" text-xl mr-4">
               <BsCurrencyDollar />
             </span>
             <p className=" text-sm font-medium text-gray-500">
-              {" "}
+              
               Price : {price}
             </p>
           </div>
